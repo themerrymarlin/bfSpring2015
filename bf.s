@@ -181,6 +181,7 @@ ascii_instruction_table:
 #	$a2: Syscall parameters
 #
 #	$v0: Syscall commands
+# 
 # Storage of .bf-relevent info
 #	At the end of the UI code, both $s5 and $a0 store the brainfuck
 #		instructions.
