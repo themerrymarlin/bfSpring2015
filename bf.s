@@ -335,3 +335,23 @@ no_op:
 #############################################################################
 # Remaining functions go here
 #############################################################################
+
+increment_pointer:
+	# Increment the instruction
+	addi $s5, $a0, 1
+
+	# Increments the pointer
+	addi $s4, $a1, 1
+
+	# Go to next instruction
+	j loop
+
+decrement_pointer:
+	# Increment the instruction
+	addi $s5, $a0, 1
+
+	# Decrements the pointer
+	addi $s4, $a1, -1
+
+	# Go to next instruction
+	j loop
